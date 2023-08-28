@@ -1,0 +1,208 @@
+:root {
+    --state: #434455;
+    --navy-blue: #2e2f42;
+    --cornflower: #E7E9FC;
+    --iris: #4d5ae5;
+    --ocean: #404bbf;
+    --cloud: #f4f4fd;
+    --white: #ffffff;
+    --slate: #434455;
+  }
+  body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--state);
+    background-color: var(--white);
+  }
+  .title {
+    background-color: var(--navy-blue);
+    color:  var(--white);
+  }
+  .logo-name {
+    color: var(--navy-blue);
+  }
+  .logo-link {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--iris);
+  }
+  .logo-down-name {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--cloud);
+  }
+  .logo-second-part {
+    color: var(--cloud);
+  }
+  .company-structure {
+    background-color:  var(--white);
+    color: var(--navy-blue);
+  }
+  .company-activity {
+    color: var(--navy-blue);
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+  }
+  .team-workers {
+    background-color:  var(--white);
+    color: var(--navy-blue);
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+  }
+  .valuables-list-descr {
+    color: var(--state);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+  }
+  .page-down {
+    background-color: var(--navy-blue);
+  }
+  .logo-web {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--iris);
+  }
+  .main-button {
+    background-color: var(--iris);
+    color:  var(--white);
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+  }
+  .link {
+    text-decoration: none;
+  }
+  .main-button:hover {
+    color:  var(--white);
+    background-color: var(--ocean);
+  }
+  .main-button:focus {
+    background-color: var(--ocean);
+  }
+  .other-buttons {
+    font-family: "Roboto", sans-serif;
+    color: var(--iris);
+    background-color: var(--cloud);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+  }
+  .other-buttons:hover {
+    color:  var(--white);
+    background-color: var(--ocean);
+  }
+  .other-buttons:focus {
+    color: var(--white);
+    background-color: var(--ocean);
+  }
+  .footer-descr {
+    color: var(--cloud);
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+  }
+  .input-list {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);
+    text-decoration: none;
+  }
+  .input-list:hover {
+    color: var(--ocean);
+  }
+  .input-list:focus {
+    color: var(--ocean);
+  }
+  .list {
+    list-style: none;
+  }
+  .second-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);
+  }
+  .contains {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--state);
+  }
+  address {
+    font-style: normal;
+  }
+  .wrapper {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color:  var(--white);
+  }
+  .valuables {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);
+  }
+  .valuables-list-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);
+    background-color:  var(--white);
+  }
+  .second-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+  }
+  .page-down-portf {
+    background-color: var(--navy-blue);
+  }
+  .contacts-list {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--state);
+  }
+  .contacts-list:hover {
+    color: var(--ocean);
+  }
+  .contacts-list:focus {
+    color: var(--ocean);
+  }
+  .section-team {
+    background-color: var(--cloud);
+  }
+  .specialists {
+    background-color:  var(--white);
+  }
