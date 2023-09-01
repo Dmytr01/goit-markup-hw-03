@@ -25,7 +25,11 @@ body {
     padding: 0 15px;
     margin: 0 auto;
   }
-
+img{
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
   
   
 /* HEADER */
@@ -329,12 +333,14 @@ body {
   padding: 12px 24px;
 }
 .other-buttons:hover {
-  color:  var(--white);
-  background-color: var(--ocean);
+  /* color:  var(--white);
+  background-color: var(--ocean); */
+  border: 1px solid transparent;
 }
 .other-buttons:focus {
-  color: var(--white);
-  background-color: var(--ocean);
+  /* color: var(--white);
+  background-color: var(--ocean); */
+  border: 1px solid transparent;
 }
 .company-pic{
   display: flex;
