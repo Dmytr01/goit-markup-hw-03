@@ -30,6 +30,9 @@ img{
   max-width: 100%;
   height: auto;
 }
+address {
+  font-style: normal;
+}
   
   
 /* HEADER */
@@ -74,6 +77,13 @@ img{
   padding: 24px 0 24px;
   display: block;
 }
+.input-list:hover {
+  color: var(--ocean);
+}
+
+.input-list:focus {
+  color: var(--ocean);
+}
 .address-info{
   display: flex;
   gap: 40px;
@@ -95,6 +105,13 @@ img{
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--slate);
+}
+.contacts-list:hover {
+  color: var(--ocean);
+}
+
+.contacts-list:focus {
+  color: var(--ocean);
 }
 
 .menu{
@@ -333,13 +350,9 @@ img{
   padding: 12px 24px;
 }
 .other-buttons:hover {
-  /* color:  var(--white);
-  background-color: var(--ocean); */
   border: 1px solid transparent;
 }
 .other-buttons:focus {
-  /* color: var(--white);
-  background-color: var(--ocean); */
   border: 1px solid transparent;
 }
 .company-pic{
@@ -364,6 +377,20 @@ img{
   color: var(--navy-blue);
   margin-bottom: 8px;
 }
+.contains {
+   font-size: 16px;
+   line-height: 1.5;
+   letter-spacing: 0.02em;
+   color: var(--state);
+}
+
+
+
+
+
+
+
+
 
 
 
@@ -372,51 +399,23 @@ img{
 
 
   
+
+
+
+
   
-  .logo-second-part {
+  /* .logo-second-part {
     color: var(--cloud);
   }
   .company-structure {
     background-color:  var(--white);
     color: var(--navy-blue);
-  }
+  } */
   
-  
-  
-  
- 
-  
- 
-  
-  .input-list:hover {
-    color: var(--ocean);
-  }
-  .input-list:focus {
-    color: var(--ocean);
-  }
-  
-  
-  .contains {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--state);
-  }
-  address {
-    font-style: normal;
-  }
-  
-  
-
-  .page-down-portf {
+  /* .page-down-portf {
     background-color: var(--navy-blue);
-  }
+  } */
  
-  .contacts-list:hover {
-    color: var(--ocean);
-  }
-  .contacts-list:focus {
-    color: var(--ocean);
-  }
+  
   
  
